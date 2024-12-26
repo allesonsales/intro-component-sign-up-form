@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+<section>
+  <div class="content__text">
+    <h1>Learn to code by watching others</h1>
+
+    <span>
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.
+    </span>
+  </div>
+
+  <div class="content__form">
+    <h2><b>Try it free 7 days</b> <hr> then $20/mo. thereafter</h2>
+
+    <form id="form">
+      <label for="first-name">
+        <input type="text" id="first-name" placeholder="First Name">
+        <span id="first-error"></span>
+      </label>
+
+      <label for="last-name">
+        <input type="text" id="last-name" placeholder="Last Name">
+        <span id="last-error" class="text-error"></span>
+      </label>
+
+      <label for="email">
+        <input type="email" id="email" placeholder="Email Adress">
+        <span id="email-error" class="text-error"></span>
+      </label>
+      <label for="password">
+        <input type="password" id="password" placeholder="Password">
+        <span id="password-error" class="text-error"></span>
+      </label>
+    
+
+      <button id="submit-button" type="submit">Claim your free trial</button>
+      <p>By clicking the button, you are agreeing to our <b> Terms and Services</b></p>
+    </form> 
+
+    
+  </div>
+
+</section>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alleson Sales</a>.
+    </p>
+  </footer>
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
